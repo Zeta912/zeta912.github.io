@@ -181,6 +181,26 @@ nav{
     display: flex;
     gap: 20px;
 }
+
+.featured-text-btn .btn a{
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s;
+    text-decoration: none;
+    color: var(--first-color);
+}
+
+.featured-text-btn .blue-btn a{
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s;
+    text-decoration: none;
+    color: var(--color-white);
+}
 .featured-text-btn>.blue-btn{
     background: var(--first-color);
     color: var(--color-white);
